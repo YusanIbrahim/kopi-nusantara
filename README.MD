@@ -15,3 +15,5 @@ pelatihan junior web developer, UPTD BLK Provinsi Gorontalo, Batch #5.
 ## penulis
 
 Yusan Ibrahim
+
+## ini setelah commit ke2
