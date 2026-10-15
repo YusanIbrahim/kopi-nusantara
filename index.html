@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1">
+    <title>kopi-nusantara</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+    <body>
+    <!-- ini adalah header -->
+        <header class="site-header">
+            <!-- ini bagian brand -->
+            <div class="brand">
+                <!-- bagian logo -->
+                <img src="img/logo 1.png" alt="logo" class="logo">
+                <!-- bagian nama website & tagline -->
+                    <!-- nama website -->
+                     <div> 
+                    <h2>Kopi-Nusantara</h2>
+                    <!-- tagline -->
+                    <p>Seduh Semangat, Nikmati Indonesia</p>
+                    </div>
+            </div>
+            <!-- bagian navigasi-main menu -->
+             <nav class="main-menu" aria-label="Menu-Utama">
+                <ul id="menu"></ul>
+            </nav>
+        </header>
+
+        <!-- bagian konten -->
+         <main class="site-content">
+            <!-- sub bagian untuk beranda -->
+            <section id="beranda">
+                <h2>Selamat Datang</h2>
+                <p>Kami Menjual Biji Kopi Pilihan dari Seluruh Indonesia</p>
+            </section>
+           
+        <!-- PENCARIAN  -->
+            <h3>Pencarian dengan Slug</h3>
+            <p>Masukkan kata kunci slug:</p>
+            <input type="text" id="inputSlug" placeholder="Contoh: kintamani">
+            <br>
+            <button onclick="cariSlug()" class="btn">Cari</button>
+            <div id="hasilCari"></div>
+
+        <!-- sub bagian untuk produk -->
+            <section id="produk">
+                <h2>Produk Kami</h2>
+
+                <div class="filters" id="filter-produk"></div>
+                <p class="meta" id="jumlah-produk"></p>
+                <div class="grid" id="daftar-produk"></div>
+            </section>
+
+        <!-- sub bagian untuk kontak -->
+            <section id="kontak">
+                <h2>Hubungi Kami</h2>
+                <p>Email: halo@kopinusantara.test</p>
+                <form id="form-kontak" novalidate>
+                    <label>Nama <input type="text" name="nama"></label>
+                    <label>Pesan <textarea name="pesan" rows="4"></textarea></label>
+                    <button type="submit" class="btn">Kirim</button>
+                    <p id="form-status" role="status"></p>
+                </form>
+            </section>
+         </main>
+
+        <!-- bagian footerr -->
+<footer class="site-footer">
+    <p>&copy; <span id="tahun"></span> -kopi nusantara | hak cipta dilindungi undang-undang</p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
+

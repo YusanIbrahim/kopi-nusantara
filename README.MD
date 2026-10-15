@@ -1,0 +1,17 @@
+# Kopi Nusantara
+Halaman web statis toko biji. di buat modul kerja 1, 
+pelatihan junior web developer, UPTD BLK Provinsi Gorontalo, Batch #5.
+
+##Struktur Folder 
+-`index.html`: halaman utama
+-`css/style.css` : gaya tampilan 
+-`img/ : gambar dan logo
+
+## cara menjalankan
+1. salin folder proyek ke dalam folder `www` laragon.
+2. jalankan laragon (Start ALL).
+3. buka `http://localhost/kopi-nusantara/` di browser.
+
+## penulis
+
+Yusan Ibrahim
