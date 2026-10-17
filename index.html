@@ -2,8 +2,15 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width, initial-scale=1">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
     <title>kopi-nusantara</title>
+        <!-- CDN Bootstrap 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- CDN Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css\style.css">
 </head>
     <body>
@@ -36,12 +43,27 @@
             </section>
            
         <!-- PENCARIAN  -->
-            <h3>Pencarian dengan Slug</h3>
+            <!-- <h3>Pencarian dengan Slug</h3>
             <p>Masukkan kata kunci slug:</p>
             <input type="text" id="inputSlug" placeholder="Contoh: kintamani">
-            <br>
+    
             <button onclick="cariSlug()" class="btn">Cari</button>
-            <div id="hasilCari"></div>
+            <div id="hasilCari"></div> -->
+
+            <!-- 🟢 CDN Style -->
+            <h4>Pencarian dengan Slug <em><small style="color: gray; font-size: 1.3rem;">(CDN Style + Advanced
+                        Logic)</small></em>
+            </h4>
+            <div class="row g-3">
+                <div class="col-auto">
+                    <input type="text" class="form-control" id="inputSlugCDN" placeholder="kata kunci">
+                </div>
+                <div class="col-auto">
+                    <button onclick="cariSlugCDN()" class="btn btn-primary mb-3">Cari</button>
+                </div>
+                <div id="hasilCariCDN"></div>
+                <hr>
+            </div>
 
         <!-- sub bagian untuk produk -->
             <section id="produk">
@@ -53,26 +75,49 @@
             </section>
 
         <!-- sub bagian untuk kontak -->
-            <section id="kontak">
-                <h2>Hubungi Kami</h2>
-                <p>Email: halo@kopinusantara.test</p>
-                <form id="form-kontak" novalidate>
-                    <label>Nama <input type="text" name="nama"></label>
-                    <label>Pesan <textarea name="pesan" rows="4"></textarea></label>
-                    <button type="submit" class="btn">Kirim</button>
-                    <p id="form-status" role="status"></p>
-                </form>
-            </section>
+
+                  <section id="kontak">
+            <h2>Hubungi Kami</h2>
+            <p>Email: halo@kopi-nusantara.test</p>
+            <form id="form-kontak" novalidate>
+                <label>Nama <input type="text" name="nama"></label>
+                <label>Pesan <textarea name="pesan" rows="4"></textarea></label>
+                <p id="form-status" role="status"></p>
+                <div class="tombol-kontak-group">
+                    <button onclick="kirimPesanWA(event)" type="button" class="btn-wa">
+                        <i class="bi bi-whatsapp"></i> Kirim ke WhatsApp
+                    </button>
+                    <button onclick="kirimPesanEmail(event)" type="submit" class="btn-email">
+                        <i class="bi bi-envelope-fill"></i> Kirim ke Email
+                    </button>
+                </div>
+            </form>
+        </section>
+            
          </main>
 
         <!-- bagian footerr -->
 <footer class="site-footer">
-    <p>&copy; <span id="tahun"></span> -kopi nusantara | hak cipta dilindungi undang-undang</p>
+    <p>&copy; <span id="tahun"></span> -Kopi Nusantara | Hak Cipta Dilindungi Undang-Undang</p>
+    <p class="medsos">
+        <a href="https://www.instagram.com/yusannn19"
+        aria-label="Instagram Kopi Nusantara">
+        <i class="bi bi-instagram"></i><span> Instagram</span></a>
+        <a href="https://www.tiktok.com/yusan"
+        aria-label="tiktok Kopi Nusantara">
+        <i class="bi bi-tiktok"></i><span> tiktok</span></a>
+        <a href="https://www.facebook.com/yusan"
+        aria-label="facebook Kopi Nusantara">
+        <i class="bi bi-facebook"></i><span> facebook</span></a>
+    </p>
 </footer>
+   
 
-<script src="js/data.js"></script>
+<!-- script src=js data -->
+<script src="js/produk.json"></script>
 <script src="js/app.js"></script>
+<script src="js\cari_slug_cdn.js"></script>
+<script src="js\kirim-pesan.js"></script>
 
 </body>
 </html>
-
