@@ -28,7 +28,9 @@ async function kirimPesanEmail(mailpit) {
     };
 
     try {
-        await fetch("http://localhost:8025/api/v1/send", {
+        // await fetch("http://172.16.1.176:8025/api/v1/send", 
+        await fetch(`mailpit-api/api/v1/send`,
+        {
             method: "POST",
             mode: "no-cors",
             headers: { "Content-Type": "text/plain" },
