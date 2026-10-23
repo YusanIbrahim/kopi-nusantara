@@ -16,6 +16,9 @@ pelatihan junior web developer, UPTD BLK Provinsi Gorontalo, Batch #5.
 
 Yusan Ibrahim
 
-## ini setelah commit ke2
+### BUG : H16 -B01
 
-## ini setelah commit ke 3
+- TOMBOL (+) DAN (-) TIDAK BERFUNGSI
+- TOMBOL MENGHAPUS RIWAT DI KERANJANG BELANJA JUGA TIDAK BERFUNGSI
+
+
