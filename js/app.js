@@ -45,6 +45,12 @@ async function mulai() {
     renderProduk();
     pasangFilterProduk();
     pasangEventFormulir();
+    renderKeranjang();
+    pasangAksiKeranjang();
+    perbaruiBadgeKeranjang();
+    pasangTombolKeranjang();
+    
+
   } catch (err) {
     app.innerHTML =
       '<div class="status error" role="alert"><strong>Data tidak dapat dimuat.</strong><p>' +
@@ -91,15 +97,33 @@ function renderMenu() {
 
 /* Langkah C. Render kartu produk */
 // --- PRODUK ---
+// function kartuProduk(p) {
+//   return `<article class="card">
+//       <img src="${esc(p.foto)}" alt="${esc(p.alt)}" class="product-photo">
+//       <h3>${esc(p.nama)}</h3>
+//       <p class="meta">${esc(p.asal)} &middot; ${esc(p.kategori)}</p>
+//       <p>${esc(p.deskripsi)}</p>
+//       <p class="price">${rupiah(p.harga)}</p>
+//       </article>`;
+// }
+
 function kartuProduk(p) {
-  return `<article class="card">
-      <img src="${esc(p.foto)}" alt="${esc(p.alt)}" class="product-photo">
-      <h3>${esc(p.nama)}</h3>
-      <p class="meta">${esc(p.asal)} &middot; ${esc(p.kategori)}</p>
-      <p>${esc(p.deskripsi)}</p>
-      <p class="price">${rupiah(p.harga)}</p>
-      </article>`;
-}
+  return `
+  <article class="card">
+  <img src="${esc(p.foto)}" alt="${esc(p.alt)}" class="product-photo">
+  <h3>${esc(p.nama)}</h3>
+ <p class="meta">${esc(p.asal)} &middot; ${esc(p.kategori)}</p>
+ <p>${esc(p.deskripsi)}</p>
+ <p class="price">${rupiah(p.harga)}</p>
+ <button class="btn btn-keranjang"
+ data-id="${p.id}" data-slug="${esc(p.slug)}"
+ data-nama="${esc(p.nama)}" data-harga="${p.harga}">
+ + Keranjang
+ </button>
+ </article>
+ `;
+} 
+
 
 function renderProduk() {
   const daftar = filterKategori === "semua"
@@ -157,3 +181,22 @@ function pasangFilterProduk() {
 document.getElementById("tahun").textContent = new Date().getFullYear();
 
 mulai();
+
+function pasangTombolKeranjang() {
+    daftarEl.addEventListener("click", function (e) {
+        const tombol = e.target.closest(".btn-keranjang");
+        if (!tombol) return;
+
+        tambahKeKeranjang({
+            produk_id: tombol.dataset.id,
+            slug: tombol.dataset.slug,
+            nama: tombol.dataset.nama,
+            harga: Number(tombol.dataset.harga),
+        });
+
+        tombol.textContent = "\u2713 Ditambahkan";
+        setTimeout(function () {
+            tombol.textContent = "+ Keranjang";
+        }, 800);
+    });
+}
