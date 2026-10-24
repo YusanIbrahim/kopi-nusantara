@@ -33,7 +33,10 @@ fix =
 </button>
 
 
-#MASALAAH YANG SAYA DAPAT
+### MASALAAH YANG SAYA DAPAT 
 
--TIDAK BISA MENGHAPUS RIWAT KERANJANG BELANJA
+-Tidak bisa menghapus riwayat (tombol hapus tidak tampil & berfungsi )
 -TOMBOL (+) DAN (-) TIDAK BERFUNGSI
+-ukuran gambar produk tidak samaa
+
+
