@@ -22,3 +22,18 @@ Yusan Ibrahim
 - TOMBOL MENGHAPUS RIWAT DI KERANJANG BELANJA JUGA TIDAK BERFUNGSI
 
 
+#bug 01 di index.html
+bug =
+<button id="tombol-keranjang-header" class="cart-icon" onclick="location.hash='#keranjang'">
+                🛒 <span id="badge-keranjang" class="badge" hidden>0</span>
+        </button>
+fix =
+<button id="tombol-keranjang-header" class="cart-icon" onclick="window.location.href='#keranjang'">
+    🛒 <span id="badge-keranjang" class="badge" hidden>0</span>
+</button>
+
+
+#MASALAAH YANG SAYA DAPAT
+
+-TIDAK BISA MENGHAPUS RIWAT KERANJANG BELANJA
+-TOMBOL (+) DAN (-) TIDAK BERFUNGSI
