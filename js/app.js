@@ -49,8 +49,6 @@ async function mulai() {
     pasangAksiKeranjang();
     perbaruiBadgeKeranjang();
     pasangTombolKeranjang();
-    
-
   } catch (err) {
     app.innerHTML =
       '<div class="status error" role="alert"><strong>Data tidak dapat dimuat.</strong><p>' +
@@ -116,7 +114,7 @@ function kartuProduk(p) {
  <p>${esc(p.deskripsi)}</p>
  <p class="price">${rupiah(p.harga)}</p>
  <button class="btn btn-keranjang"
- data-id="${p.id}" data-slug="${esc(p.slug)}"
+ data-id="${p.produk_id}" data-slug="${esc(p.slug)}"
  data-nama="${esc(p.nama)}" data-harga="${p.harga}">
  + Keranjang
  </button>
@@ -175,20 +173,13 @@ function pasangFilterProduk() {
   });
 };
 
-
-/* Langkah F. Inisialisasi. Letakkan di paling bawah berkas. */
-// --- INISIALISASI ---
-document.getElementById("tahun").textContent = new Date().getFullYear();
-
-mulai();
-
 function pasangTombolKeranjang() {
     daftarEl.addEventListener("click", function (e) {
         const tombol = e.target.closest(".btn-keranjang");
         if (!tombol) return;
 
         tambahKeKeranjang({
-            produk_id: tombol.dataset.id,
+            produk_id: Number(tombol.dataset.id),
             slug: tombol.dataset.slug,
             nama: tombol.dataset.nama,
             harga: Number(tombol.dataset.harga),
@@ -200,3 +191,13 @@ function pasangTombolKeranjang() {
         }, 800);
     });
 }
+
+
+/* Langkah F. Inisialisasi. Letakkan di paling bawah berkas. */
+// --- INISIALISASI ---
+document.getElementById("tahun").textContent = new Date().getFullYear();
+
+mulai();
+
+
+
