@@ -278,6 +278,7 @@ function pasangFormCheckout() {
  }
  });
 }
+
 function tampilkanKonfirmasi(hasil) {
  const isiEl = document.getElementById("isi-keranjang");
  const totalEl = document.getElementById("total-keranjang");

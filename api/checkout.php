@@ -30,7 +30,7 @@ try {
  // Cari produk yang cocok di dalam array -- pengganti "WHERE id = ..."
  $indeks = null;
  foreach ($dataProduk["produk"] as $i => $p) {
- if ($p["id"] === $produkId) { $indeks = $i; break; }
+ if ($p["produk_id"] === $produkId) { $indeks = $i; break; }
  }
  if ($indeks === null) {
  throw new Exception("Produk tidak ditemukan.");
@@ -46,7 +46,7 @@ tidak valid.");
  // Harga diambil dari BERKAS, bukan dari data yang dikirim klien.
  $hargaAsli = (int) $dataProduk["produk"][$indeks]["harga"];
  $total += $hargaAsli * $jumlah;
- $rincian[
+ $rincian[] = [
     "indeks" => $indeks,
  "produk_id" => $produkId,
  "jumlah" => $jumlah,
@@ -86,6 +86,7 @@ tutupJsonTerkunci($handleTransaksi, $dataTransaksi);
  "total" => $total,
  ]);
 } catch (Exception $e) {
+
  // Validasi gagal SEBELUM tahap penulisan mana pun -- $dataProduk
  // belum pernah diubah, jadi cukup lepas kunci tanpa menulis ulang.
  tutupJsonTerkunci($handleProduk, $dataProduk);

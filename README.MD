@@ -44,3 +44,8 @@ fix =
 
 - tombol chekout blm berfungsi 
 - ada tulisan tidak terhubung ke server
+
+### ini console h17
+5keranjang.js:277 SyntaxError: Unexpected token '<', "<br />
+<b>"... is not valid JSON
+(anonymous) @ keranjang.js:277

@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "id": 1,
+        "kode_transaksi": "KN-72286D2F",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 210000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-24 06:52:45",
+        "items": [
+            {
+                "produk_id": 5,
+                "jumlah": 1,
+                "harga_saat_beli": 60000
+            },
+            {
+                "produk_id": 9,
+                "jumlah": 1,
+                "harga_saat_beli": 89000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    }
+]

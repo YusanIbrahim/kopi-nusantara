@@ -36,3 +36,8 @@ function tutupJsonTerkunci($handle, array $data): void {
  flock($handle, LOCK_UN); // lepas kunci SETELAH selesai menulis
  fclose($handle);
 } 
+
+function buatKodeTransaksi(): string {
+ return "KN-" . strtoupper(bin2hex(random_bytes(4)));
+} 
+?>
