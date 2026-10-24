@@ -40,3 +40,7 @@ fix =
 -ukuran gambar produk tidak samaa
 
 
+### bug 17
+
+- tombol chekout blm berfungsi 
+- ada tulisan tidak terhubung ke server

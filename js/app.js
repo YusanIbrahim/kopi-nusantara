@@ -49,6 +49,7 @@ async function mulai() {
     pasangAksiKeranjang();
     perbaruiBadgeKeranjang();
     pasangTombolKeranjang();
+    pasangFormCheckout();
   } catch (err) {
     app.innerHTML =
       '<div class="status error" role="alert"><strong>Data tidak dapat dimuat.</strong><p>' +
