@@ -76,5 +76,449 @@
                 "harga_saat_beli": 89000
             }
         ]
+    },
+    {
+        "id": 4,
+        "kode_transaksi": "KN-A6836DC9",
+        "nama_pemesan": "ftfy",
+        "kontak": "gyg",
+        "total": 65000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 08:33:04",
+        "items": [
+            {
+                "produk_id": 6,
+                "jumlah": 1,
+                "harga_saat_beli": 65000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "kode_transaksi": "KN-A203D131",
+        "nama_pemesan": "sannnnn",
+        "kontak": "23",
+        "total": 251000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 08:35:29",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 2,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "kode_transaksi": "KN-421DD7F3",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 312000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:13:41",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 2,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 2,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "kode_transaksi": "KN-611B71EF",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 580000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:19:10",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 3,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 2,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 9,
+                "jumlah": 1,
+                "harga_saat_beli": 89000
+            },
+            {
+                "produk_id": 10,
+                "jumlah": 1,
+                "harga_saat_beli": 84000
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "kode_transaksi": "KN-F236A748",
+        "nama_pemesan": "sannnnn",
+        "kontak": "ghfd",
+        "total": 1004000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:19:56",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 4,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 8,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "kode_transaksi": "KN-2A4C2639",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 346000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:20:36",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 3,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "kode_transaksi": "KN-3B6DE44D",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:25:47",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "kode_transaksi": "KN-8575301F",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 95000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:27:57",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "kode_transaksi": "KN-E35774B1",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 251000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:30:32",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 2,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "kode_transaksi": "KN-D910CDCD",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:53:19",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "kode_transaksi": "KN-76BFC45B",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 217000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:53:47",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 2,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "kode_transaksi": "KN-7FC320C4",
+        "nama_pemesan": "asd",
+        "kontak": "asd",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 10:59:54",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "kode_transaksi": "KN-BBFB1480",
+        "nama_pemesan": "asd",
+        "kontak": "asd",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:00:05",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "kode_transaksi": "KN-73310D80",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:04:37",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "kode_transaksi": "KN-5D6E4F7C",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:04:58",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "kode_transaksi": "KN-30468CE6",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:05:05",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "kode_transaksi": "KN-B862B29F",
+        "nama_pemesan": "sannn",
+        "kontak": "34634464646464",
+        "total": 95000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:18:10",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "kode_transaksi": "KN-7BC1D8BB",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 61000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:36:14",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "kode_transaksi": "KN-FA0A0E6D",
+        "nama_pemesan": "sannnnn",
+        "kontak": "085824233941",
+        "total": 1670000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-26 11:41:59",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 4,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 5,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 10,
+                "jumlah": 2,
+                "harga_saat_beli": 84000
+            },
+            {
+                "produk_id": 9,
+                "jumlah": 1,
+                "harga_saat_beli": 89000
+            },
+            {
+                "produk_id": 2,
+                "jumlah": 1,
+                "harga_saat_beli": 80000
+            },
+            {
+                "produk_id": 1,
+                "jumlah": 1,
+                "harga_saat_beli": 85000
+            },
+            {
+                "produk_id": 3,
+                "jumlah": 1,
+                "harga_saat_beli": 90000
+            },
+            {
+                "produk_id": 4,
+                "jumlah": 1,
+                "harga_saat_beli": 88000
+            },
+            {
+                "produk_id": 8,
+                "jumlah": 1,
+                "harga_saat_beli": 87000
+            },
+            {
+                "produk_id": 7,
+                "jumlah": 1,
+                "harga_saat_beli": 82000
+            },
+            {
+                "produk_id": 6,
+                "jumlah": 1,
+                "harga_saat_beli": 65000
+            },
+            {
+                "produk_id": 5,
+                "jumlah": 1,
+                "harga_saat_beli": 60000
+            },
+            {
+                "produk_id": 11,
+                "jumlah": 1,
+                "harga_saat_beli": 91000
+            }
+        ]
     }
 ]

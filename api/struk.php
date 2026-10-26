@@ -35,9 +35,10 @@ function rupiahPdf(int $angka): string {
 
 $pdf = new FPDF();
 $pdf->AddPage();
+$pdf->Image("../img/logo 1.png", 10, 10, 20);
 $pdf->SetFont("Arial", "B", 16);
 $pdf->Cell(0, 10, teks("Struk Kopi Nusantara"), 0, 1, "C");
-$pdf->Ln(4);
+$pdf->Ln(15);
 $pdf->SetFont("Arial", "", 11);
 $pdf->Cell(0, 7, teks("Kode Transaksi : " . $transaksi["kode_transaksi"]), 0, 1);
 $pdf->Cell(0, 7, teks("Nama Pemesan : " . $transaksi["nama_pemesan"]), 0, 1);

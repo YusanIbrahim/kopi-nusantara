@@ -104,12 +104,10 @@
             <h2>Keranjang Belanja</h2>
             <div id="isi-keranjang"></div>
             <p class="total-keranjang">Total: <span id="total-keranjang">Rp 0</span></p>
-
         <form id="form-checkout">
-        <label>Nama Pemesan <input type="text" name="nama_pemesan" required></label>
-        <label>Nomor WhatsApp <input type="text" name="kontak" required
-        placeholder="08xxxxxxxxxx"></label>
-        <button type="submit" class="btn">Checkout</button>
+             <label>Nama Pemesan <input type="text" name="nama_pemesan" required></label>
+             <label>Nomor WhatsApp <input type="text" name="kontak" required placeholder="08xxxxxxxxxx"></label>
+             <button type="submit" class="btn">Checkout</button>
         </form>
 <p id="status-checkout" role="status"></p> 
         </section>
@@ -138,6 +136,8 @@
 <script src="js/keranjang.js"></script>
 <script src="js/cari_slug_cdn.js"></script>
 <script src="js/kirim-pesan.js"></script>
+<!-- <script src="patch/js/01-patch-autoreload.js"></script> -->
+<script src="patch/js/03-patch.js"></script>
 
 </body>
 </html>

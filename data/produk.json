@@ -32,7 +32,7 @@
             "deskripsi": "Body tebal, aroma rempah dan cokelat gelap.",
             "foto": "img/images1.jpg",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 99
         },
         {
             "produk_id": 2,
@@ -44,7 +44,7 @@
             "deskripsi": "Rasa bersih dengan sentuhan karamel.",
             "foto": "img/images 2.jpg",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 99
         },
         {
             "produk_id": 3,
@@ -56,7 +56,7 @@
             "deskripsi": "Keasaman cerah seperti jeruk, ringan dan segar.",
             "foto": "img/images 3.jpg",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 99
         },
         {
             "produk_id": 4,
@@ -68,7 +68,7 @@
             "deskripsi": "Aroma floral dengan aftertaste manis.",
             "foto": "img/images 4.jpg",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 99
         },
         {
             "produk_id": 5,
@@ -80,7 +80,7 @@
             "deskripsi": "Pahit tegas dan kental, cocok untuk kopi susu.",
             "foto": "img/images 5.jpg",
             "alt": "foto produk",
-            "stok": 2
+            "stok": 99
         },
         {
             "produk_id": 6,
@@ -92,7 +92,7 @@
             "deskripsi": "Rasa earthy dengan aroma kacang panggang.",
             "foto": "img/images 6.jpg",
             "alt": "foto produk",
-            "stok": 3
+            "stok": 99
         },
         {
             "produk_id": 7,
@@ -104,7 +104,7 @@
             "deskripsi": "Body full, rasa cokelat, nutty, dan sedikit rempah.",
             "foto": "img/images 7.webp",
             "alt": "foto produk",
-            "stok": 4
+            "stok": 99
         },
         {
             "produk_id": 8,
@@ -116,7 +116,7 @@
             "deskripsi": "Keasaman cerah, aroma jeruk, body ringan.",
             "foto": "img/images-.jpg",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 99
         },
         {
             "produk_id": 9,
@@ -128,7 +128,7 @@
             "deskripsi": "Body medium, rasa rempah, floral, dan manis.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 3
+            "stok": 98
         },
         {
             "produk_id": 10,
@@ -140,7 +140,7 @@
             "deskripsi": "Rasa bersih, kompleks, body medium-full, aroma rempah.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 97
         },
         {
             "produk_id": 11,
@@ -152,7 +152,7 @@
             "deskripsi": "Body tebal, rasa cokelat, rempah, dan buah tropis.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 99
         },
         {
             "produk_id": 12,
@@ -164,7 +164,7 @@
             "deskripsi": "Pahit tegas, body kental, aroma kacang.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 100
         },
         {
             "produk_id": 13,
@@ -176,7 +176,7 @@
             "deskripsi": "Body ringan, rasa cokelat, pedas, dan unik.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 70
         },
         {
             "produk_id": 14,
@@ -188,7 +188,7 @@
             "deskripsi": "Rasa earthy, nutty, body full.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 4
+            "stok": 77
         }
     ]
 }
