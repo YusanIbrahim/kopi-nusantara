@@ -80,7 +80,7 @@
             "deskripsi": "Pahit tegas dan kental, cocok untuk kopi susu.",
             "foto": "img/images 5.jpg",
             "alt": "foto produk",
-            "stok": 4
+            "stok": 2
         },
         {
             "produk_id": 6,
@@ -92,7 +92,7 @@
             "deskripsi": "Rasa earthy dengan aroma kacang panggang.",
             "foto": "img/images 6.jpg",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 3
         },
         {
             "produk_id": 7,
@@ -104,7 +104,7 @@
             "deskripsi": "Body full, rasa cokelat, nutty, dan sedikit rempah.",
             "foto": "img/images 7.webp",
             "alt": "foto produk",
-            "stok": 5
+            "stok": 4
         },
         {
             "produk_id": 8,
@@ -128,7 +128,7 @@
             "deskripsi": "Body medium, rasa rempah, floral, dan manis.",
             "foto": "img/produk.png",
             "alt": "foto produk",
-            "stok": 4
+            "stok": 3
         },
         {
             "produk_id": 10,
