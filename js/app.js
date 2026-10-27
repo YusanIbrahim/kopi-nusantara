@@ -115,7 +115,7 @@ function kartuProduk(p) {
  <p>${esc(p.deskripsi)}</p>
  <p class="price">${rupiah(p.harga)}</p>
  <button class="btn btn-keranjang"
- data-id="${p.produk_id}" data-slug="${esc(p.slug)}"
+ data-id="${p.id}" data-slug="${esc(p.slug)}"
  data-nama="${esc(p.nama)}" data-harga="${p.harga}">
  + Keranjang
  </button>

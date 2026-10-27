@@ -1,6 +1,8 @@
 <?php
 require __DIR__ . "/lib/json_store.php";
+
 header("Content-Type: application/json");
+
 $payload = json_decode(file_get_contents("php://input"), true);
 if (!$payload || empty($payload["items"])) {
  http_response_code(400);
@@ -30,7 +32,7 @@ try {
  // Cari produk yang cocok di dalam array -- pengganti "WHERE id = ..."
  $indeks = null;
  foreach ($dataProduk["produk"] as $i => $p) {
- if ($p["produk_id"] === $produkId) { $indeks = $i; break; }
+ if ($p["id"] === $produkId) { $indeks = $i; break; }
  }
  if ($indeks === null) {
  throw new Exception("Produk tidak ditemukan.");

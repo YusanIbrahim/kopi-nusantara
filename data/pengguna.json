@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "id": 1,
+        "nama": "Admin Kopi Nusantara",
+        "username": "admin",
+        "kata_sandi": "$2y$10$lbfnX0NQyC52dhMBuAER7.km.px/IWoisuSudQ5amAEZgT70ec3bK"
+    }
+]

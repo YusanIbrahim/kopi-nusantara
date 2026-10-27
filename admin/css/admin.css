@@ -1,0 +1,175 @@
+/* admin.css: gaya dasar untuk seluruh halaman admin.
+   Sengaja dibuat minimal -- perluas sesuai selera memakai
+   teknik flexbox/grid yang sudah dikuasai sejak Modul 1. */
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f4ef;
+  color: #333;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #4b2e1e;
+  color: #fff;
+}
+.admin-header a { color: #fff; }
+
+.admin-menu {
+  display: flex;
+  gap: 1.5rem;
+  padding: 0.75rem 2rem;
+  background: #fff;
+  border-bottom: 1px solid #e0dcd3;
+}
+.admin-menu a { text-decoration: none; color: #333; }
+.admin-menu a.active { font-weight: bold; color: #4b2e1e; }
+
+.admin-content { padding: 2rem; max-width: 1024px; margin: 0 auto; }
+
+.ringkasan { display: flex; gap: 1rem; flex-wrap: wrap; }
+.kartu-ringkasan {
+  background: #fff; border: 1px solid #e0dcd3; border-radius: 8px;
+  padding: 1.5rem; min-width: 160px; text-align: center;
+}
+.kartu-ringkasan .angka { font-size: 1.8rem; font-weight: bold; margin: 0; }
+.kartu-ringkasan .label { color: #777; margin: 0; }
+
+.form-admin, .form-login {
+  display: grid; gap: 0.75rem; max-width: 480px;
+  background: #fff; padding: 1.5rem; border-radius: 8px;
+  border: 1px solid #e0dcd3;
+}
+.form-admin label, .form-login label { display: grid; gap: 0.25rem; font-weight: bold; }
+.form-admin input, .form-admin textarea,
+.form-login input { padding: 0.5rem; font: inherit; border: 1px solid #bbb; border-radius: 4px; }
+
+.halaman-login { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+
+.btn {
+  display: inline-block; padding: 0.5rem 1.1rem; background: #4b2e1e;
+  color: #fff; border: none; border-radius: 6px; cursor: pointer;
+  text-decoration: none; font: inherit;
+}
+.btn-batal { background: #999; }
+
+.status { padding: 0.75rem 1rem; background: #eef7ee; border: 1px solid #b8ddb8; border-radius: 6px; }
+.pesan-galat { padding: 0.75rem 1rem; background: #fbeaea; border: 1px solid #e3b5b5; border-radius: 6px; color: #8a1c1c; }
+
+.tabel-admin { width: 100%; border-collapse: collapse; background: #fff; }
+.tabel-admin th, .tabel-admin td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #eee; text-align: left; }
+
+@media (max-width: 600px) {
+  .admin-header { flex-direction: column; gap: 0.5rem; text-align: center; }
+  .admin-menu { flex-wrap: wrap; gap: 0.75rem; }
+}
+
+/* NEW Admin Content Style *?
+/* Container Utama */
+.admin-content {
+    max-width: 1024px;
+    margin: 2rem auto;
+    padding: 0 1.5rem; /* Padding samping untuk layar kecil */
+    display: block;
+}
+
+/* Tombol Aksi */
+.admin-content .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #4B2E1E; /* Tema Cokelat Gelap */
+    color: #ffffff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 1.5rem; /* Memberi jarak ke tabel */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.admin-content .btn:hover {
+    background-color: #362116;
+}
+
+/* Wrapper Tabel / Datatable */
+.datatable-wrapper {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Memastikan tabel bisa di-scroll horizontal di HP */
+    width: 100%;
+}
+
+/* Penyesuaian Responsif (Mobile) */
+@media (max-width: 768px) {
+    .admin-content {
+        margin: 1rem auto;
+        padding: 0 1rem;
+    }
+    
+    .admin-content .btn {
+        width: 100%; /* Tombol memenuhi lebar layar di mobile */
+        text-align: center;
+    }
+
+    .datatable-wrapper {
+        padding: 1rem;
+        font-size: 14px;
+    }
+}
+
+/* TOMBOL Aksi */
+/* Container Sel Aksi */
+td:last-child {
+    display: flex;
+    gap: 8px; /* Jarak antar tombol */
+    vertical-align: middle;
+    padding: 12px 10px;
+}
+
+/* Base Style Tombol Aksi */
+td:last-child a {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+/* Tombol Ubah (Tema Utama) */
+td:last-child a:first-child {
+    background-color: #4B2E1E; /* Cokelat Gelap */
+    color: #ffffff;
+}
+
+td:last-child a:first-child:hover {
+    background-color: #362116;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tombol Hapus (Aksen Kontras/Merah) */
+td:last-child a:last-child {
+    background-color: #fff;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+
+td:last-child a:last-child:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}

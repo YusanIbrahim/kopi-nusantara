@@ -520,5 +520,105 @@
                 "harga_saat_beli": 91000
             }
         ]
+    },
+    {
+        "id": 23,
+        "kode_transaksi": "KN-C05F29AC",
+        "nama_pemesan": "sannnnn",
+        "kontak": "0858242339415555",
+        "total": 122000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-27 08:51:16",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 2,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "kode_transaksi": "KN-30153B65",
+        "nama_pemesan": "sannnnn",
+        "kontak": "0858242339415555",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-27 09:03:16",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "kode_transaksi": "KN-90B2D820",
+        "nama_pemesan": "sannnnn",
+        "kontak": "08582423394199",
+        "total": 156000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-27 13:20:38",
+        "items": [
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            },
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "kode_transaksi": "KN-149DD590",
+        "nama_pemesan": "sannnnn",
+        "kontak": "0858242339415555",
+        "total": 145000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-27 14:30:13",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 1,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 10,
+                "jumlah": 1,
+                "harga_saat_beli": 84000
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "kode_transaksi": "KN-5639E673",
+        "nama_pemesan": "sannnnn",
+        "kontak": "0858242339415555",
+        "total": 400000,
+        "status": "baru",
+        "dibuat_pada": "2026-10-27 14:31:15",
+        "items": [
+            {
+                "produk_id": 14,
+                "jumlah": 5,
+                "harga_saat_beli": 61000
+            },
+            {
+                "produk_id": 13,
+                "jumlah": 1,
+                "harga_saat_beli": 95000
+            }
+        ]
     }
 ]

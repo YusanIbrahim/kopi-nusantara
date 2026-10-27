@@ -95,3 +95,8 @@ _Catatan: Sesuaikan Wilayah Waktu Anda_
 
 **Pengembangan**
 - Ubah ukuran kertas Struk agar sesuai dengan POS-Printer (Pelajari Manual FPDF).
+
+### bug h21
+terjadi bug ketika mengubah produk, smua datanya hilang 
+### fix bug 
+cdn di prodk php di hilangkann

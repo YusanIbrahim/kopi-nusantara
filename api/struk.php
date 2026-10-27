@@ -19,7 +19,7 @@ $dataProduk = bacaJson(__DIR__ . "/../data/produk.json");
 // Mencari nama produk berdasarkan id -- pengganti "JOIN produk"
 function cariNamaProduk(array $dataProduk, int $produkId): string {
  foreach ($dataProduk["produk"] as $p) {
- if ($p["produk_id"] === $produkId) {
+ if ($p["id"] === $produkId) {
  return $p["nama"];
  }
  }
